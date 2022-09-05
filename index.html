@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>banana speak</title>
-    
+    <title>minion speak</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Banana Speak</h1>
+    <nav>
+        <div class="heading">
+            <img src="/images/minion.png" alt="minion logo">
+            <h1>Minion Speak</h1>
+        </div>
+
+    </nav>
+    <div class="center-container">
+        <textarea id="txt-input"
+            placeholder="Put your message in English here to convert it into Minion speak"></textarea>
+        <button id="btn-translate">Translate</button>
+        <div class="div-translated">
+            <p>Output will come here 👇</p>
+            <div id="output">
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="center-container">
+        <h2>About</h2>
+        <p>Are you a fan of minions? and want to have fun then use this translator to convert your text from English to
+            Minion speak.</p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
